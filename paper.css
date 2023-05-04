@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color:#CFFF8D;
+}
+header{
+    background-color:black;
+    padding:35px;
+}
+header > h1{
+    color:white;
+    text-align:center;
+    font-family:Asap,sans-serif;
+}
+.score-board{
+    margin:20px auto;
+    border:3px solid black;
+    width:200px;
+    color:white;
+    font-size: 46px;
+    border-radius: 4px;
+    text-align: center;
+    padding:1% 1%;
+    font-family: Asap,sans-serif;
+    position:relative;
+}
+.badge{
+    background-color:red;
+    margin:5px 2px;
+    font-size: 14px;
+    padding:2px 10px;
+    font-family:Asap,sans-serif;
+}
+#user-label{
+position:absolute;
+top:30px;
+left:-25px
+}
+#computer-label{
+    position:absolute;
+    top:30px;
+    right:-30px;
+}
+.result{
+    font-size:40px;
+    color:black;
+    text-align: center;
+    font-family:Asap,sans-serif;
+    font-weight: bold;
+}
+.choices{
+    text-align: center;
+    margin-top:80px;
+}
+.choice{
+    padding:10px;
+    display:inline-block;
+    border:8px solid white;
+    margin:50px ;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    cursor: pointer;
+    background: white;
+}
+#action-message{
+    text-align:center;
+    color:black;
+    font-family:Asap,sans-serif;
+    font-weight: bold;
+    font-size:43px;
+    margin:20px;
+    margin-top:5px;
+
+}
